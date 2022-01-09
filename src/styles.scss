@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+// Bootstrap v5
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+// Global Font
+@import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,300&family=Outfit:wght@100;400;600;700&display=swap');
+
+
+body{
+  width: 100%;
+  height: auto;
+  overflow: hidden auto;
+  background-color: #ecf0f1;
+  font-family: 'Mohave', sans-serif !important;
+  font-family: 'Outfit', sans-serif !important;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+// main variables
+
+
+
+
+// Style Global
+
+.bg-main-light{
+  background-color: white !important;
+}

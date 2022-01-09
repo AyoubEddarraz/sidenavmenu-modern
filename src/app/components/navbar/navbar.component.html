@@ -1,0 +1,17 @@
+<div class="navBar">
+
+  <img class="logo" src="/assets/logo.png" alt="logo maroc" draggable="false">
+
+  <ng-container *ngFor="let panel of navitems">
+    <div class="panel">
+      <h4 class="panelName"> {{ panel.parentName | uppercase }} </h4>
+      <ul>
+        <li *ngFor="let child of panel.childs" [routerLink]="child.childRoute" routerLinkActive="active">
+          <mat-icon class="icone"> {{ child.childIcone }} </mat-icon>
+          <span class="childName"> {{ child.childName }} </span>
+        </li>
+      </ul>
+    </div>
+  </ng-container>
+
+</div>
